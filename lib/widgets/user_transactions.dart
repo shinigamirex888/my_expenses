@@ -37,7 +37,7 @@ class _UserTransactionsState extends State<UserTransactions> {
       _userTransactions.add(newTx);
     });
   }
- 
+ //'₹ ${tx.amount}'
   @override
   Widget build(BuildContext context) {
     return Column(
